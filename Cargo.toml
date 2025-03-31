@@ -1,0 +1,11 @@
+[package]
+name = "shadowrust"
+version = "0.1.0"
+edition = "2021" 
+
+[dependencies]
+windows = { version = "0.57", features = ["Win32_Foundation", "Win32_System_Diagnostics_Debug", "Win32_System_Registry", "Win32_System_Threading", "Win32_Security", "Win32_System_Services", "Win32_UI_Shell", "Win32_UI_WindowsAndMessaging"] }
+chacha20poly1305 = "0.10"
+sha2 = "0.10"
+rand = "0.8"
+whoami = "1.5"
